@@ -19,7 +19,6 @@ export default {
   props: {
     movies: Array,
   },
-
 }
 </script>
 

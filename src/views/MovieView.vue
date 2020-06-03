@@ -26,7 +26,7 @@ export default {
   },
   methods: {
     onButtonClick() {
-      axios.get('https://www.json-generator.com/api/json/get/ceNyuXZmwi?indent=2')
+      axios.get('http://www.json-generator.com/api/json/get/ceNyuXZmwi?indent=2')
         .then(
           res => {
             this.movies = res.data
